@@ -1,10 +1,11 @@
 import React from 'react';
+import './css/infotext.css';
 
 function SchoolmealInfo(exception_weekendDay){
     exception_weekendDay = calcDate();
     return(
         <div className="mealinfo">
-            <span className="mealinfo__text">급식을 {exception_weekendDay}번 먹을 수 있었겠죠</span>
+            <span class="infotext">급식을 {exception_weekendDay}번 먹을 수 있었겠죠</span>
         </div>
     );
 }

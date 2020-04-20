@@ -1,11 +1,18 @@
 import React from 'react';
+import './css/title.scss';
 
 function Title(){
     return(
-        <div class="title">
-            <h1>개학부터 지나온 시간 계산기</h1>
-        </div>
+    <section class="container">
+        <h1>
+            <span class="title">지나온</span>
+            <span class="title">개학일</span>
+            <span class="title">계산기</span>
+        </h1>
+        <div class="button">restart</div>
+    </section>
     );
 }
+
 
 export default Title;

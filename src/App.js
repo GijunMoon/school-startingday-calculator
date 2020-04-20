@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Title from './title';
+import { Header } from './components';
 import StartingDayInfo from './info/StartingdayInfo';
 import TimeTextInfo from './info/TimeTextInfo';
 import SoccerInfo from './info/SoccerInfo';
@@ -27,13 +27,21 @@ class App extends React.Component{
         </div>
         ) : (
           <div class="calculator">{/*메인 시간 계산기 부분*/}
-            <Title /> 
-            <StartingDayInfo /> {/*지나온 시간 출력*/}
-            <TimeTextInfo />
-            <SoccerInfo />
-            <SchoolmealInfo />
-            <SchoolCheckInfo />
-            <WalkInfo />
+            <Header/>
+            <div 
+            style={{
+              display: "grid",
+              placeitems: "center",
+              textAlign: "center"
+            }} 
+            className="des">
+              <StartingDayInfo /> {/*지나온 시간 출력*/}
+              <TimeTextInfo />
+              <SoccerInfo />
+              <SchoolmealInfo />
+              <SchoolCheckInfo />
+              <WalkInfo />
+            </div>
           </div>
         )
       }
