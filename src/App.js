@@ -1,12 +1,9 @@
 import React from 'react';
-import './App.css';
-import { Header } from './components';
-import StartingDayInfo from './info/StartingdayInfo';
-import TimeTextInfo from './info/TimeTextInfo';
+import WalkInfo from './info/WalkschoolInfo';
 import SoccerInfo from './info/SoccerInfo';
 import SchoolmealInfo from './info/SchoolmealInfo';
-import SchoolCheckInfo from './info/MoriningCheckInfo';
-import WalkInfo from './info/WalkschoolInfo';
+import MoriningcheckInfo from './info/MoriningCheckInfo';
+import StartingDayInfo from './info/StartingdayInfo';
 
 class App extends React.Component{
   state = {
@@ -20,34 +17,37 @@ class App extends React.Component{
   render(){
     const { isLoading } = this.state;
   return (
+    <body class="body">
     <section class="container">
       {isLoading ? (
         <div class="loader"> {/*6초 로딩화면*/}
-          <span class="loader__text">Loading...</span> 
+          <span class="infotext">Loading...</span> 
         </div>
         ) : (
-          <div class="calculator">{/*메인 시간 계산기 부분*/}
-            <Header/>
-            <div 
-            style={{
-              display: "grid",
-              placeitems: "center",
-              textAlign: "center"
-            }} 
-            className="des">
-              <StartingDayInfo /> {/*지나온 시간 출력*/}
-              <TimeTextInfo />
-              <SoccerInfo />
-              <SchoolmealInfo />
-              <SchoolCheckInfo />
-              <WalkInfo />
-            </div>
+          <div class="container wrapper">
+            <textarea id="text" type="text" maxlength="50"></textarea>
+            <h1>
+              <span class="segment innertext">개학일로부터 지나온 시간 </span>
+              <span data-text="!">|</span>
+            </h1>
+            <StartingDayInfo />
+            <br></br>
+            <WalkInfo />
+            <br></br>
+            <MoriningcheckInfo />
+            <br></br>
+            <SchoolmealInfo />
+            <br></br>
+            <SoccerInfo />
           </div>
         )
       }
     </section>
+    </body>
     );
   }
 }
+
+
 
 export default App;

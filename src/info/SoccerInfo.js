@@ -5,11 +5,22 @@ function SoccerInfo({soccerday}){
     var t_soccerday = Number(dateDiff(a, new Date()));
     soccerday = t_soccerday*16; //하루 1440분을 축구 90분으로 나누어 계산한 결과 값이 16
     return(
-        <div className="soccerinfo">
-            <span className="soccerinfo__text">축구를 약 {soccerday}번 할 수 있었겠죠</span>
-            <br></br>
-            <span className="soccerinfo__infotext">하루 24간 종일 90분 축구를 한다는 가정하입니다. (말도 안되는 계산이긴 합니다..)</span>
+        <div class="row">
+        <div class="card-w col-md-4">
+        <div class="card active">
+        <div class="card__icon">
+            
         </div>
+        <div className="soccerinfo">
+            <span className="infotext">축구를 약 </span>
+            <span className="infonumtext">{soccerday}</span>
+            <span className="infotext">번 할 수 있습니다.</span>
+            <br></br>
+            <span className="destext">하루 24간 종일 90분 축구를 한다는 가정하입니다...</span>
+        </div>
+        </div>
+      </div>
+    </div>      
     );
 }
 

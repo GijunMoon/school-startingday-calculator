@@ -4,9 +4,20 @@ function MoriningCheck(exception_weekendDay){
     exception_weekendDay = Number(calcDate());
     var f_exception_weekendDay = exception_weekendDay*2
     return(
-        <div className="schoolcheckinfo">
-            <span className="schoolcheckinfo__text">조례 및 종례를 {f_exception_weekendDay}번 했겠죠</span>
+    <div class="row">
+        <div class="card-w col-md-4">
+        <div class="card active">
+        <div class="card__icon">
+
         </div>
+        <div className="schoolcheckinfo">
+            <span className="infotext">조례 및 종례를 </span>
+            <span className="infonumtext">{f_exception_weekendDay}</span>
+            <span className="infotext">번 할 수 있습니다.</span>
+        </div>
+        </div>
+      </div>
+    </div>
     );
 }
 

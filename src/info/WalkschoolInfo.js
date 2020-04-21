@@ -1,13 +1,28 @@
 import React from 'react';
+import './css/neumorphDes.scss';
 
 function WalkschoolInfo(walkday){
     walkday = Number(calcDate());
     //1.28km
     var walkkm = walkday * 1.28;
     return(
-        <div className="walkinfo">
-            <span className="walkinfo__text">지금까지 최소 {walkkm}km 만큼은 걷거나 차를 탔을 겁니다.</span>
+        <div class="row">
+              <div class="card-w col-md-4">
+              <div class="card active">
+              <div class="card__icon">
+   
+              </div>
+              <div class="card__text">
+                  <div className="walkinfo">
+                      <span className="infotext">지금까지 최소 </span> 
+                      <span className="infonumtext">{walkkm}km </span> 
+                      <span className="infotext">만큼은 걷거나 차를 탈 수 있습니다.</span>
+                  </div>
+              </div>
+            </div>
+            </div>
         </div>
+
     );
 }
 
