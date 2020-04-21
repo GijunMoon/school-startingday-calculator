@@ -1,0 +1,11 @@
+
+@font-face {
+  font-family: 'JejuGothic';
+  src: local('JejuGothic'), url(./fonts/JejuGothic.ttf) format('ttf');
+}
+
+body {
+
+   background: #e0e5ec;
+
+}
