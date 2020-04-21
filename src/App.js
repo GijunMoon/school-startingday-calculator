@@ -4,6 +4,8 @@ import SoccerInfo from './info/SoccerInfo';
 import SchoolmealInfo from './info/SchoolmealInfo';
 import MoriningcheckInfo from './info/MoriningCheckInfo';
 import StartingDayInfo from './info/StartingdayInfo';
+import './fonts/JejuGothic.ttf';
+
 
 class App extends React.Component{
   state = {
