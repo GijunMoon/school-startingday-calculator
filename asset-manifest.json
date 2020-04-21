@@ -1,26 +1,22 @@
 {
   "files": {
-    "main.css": "/school-startingday-calculator/static/css/main.cb4e5616.chunk.css",
-    "main.js": "/school-startingday-calculator/static/js/main.97d18528.chunk.js",
-    "main.js.map": "/school-startingday-calculator/static/js/main.97d18528.chunk.js.map",
+    "main.css": "/school-startingday-calculator/static/css/main.2781e3bc.chunk.css",
+    "main.js": "/school-startingday-calculator/static/js/main.ddf69d73.chunk.js",
+    "main.js.map": "/school-startingday-calculator/static/js/main.ddf69d73.chunk.js.map",
     "runtime-main.js": "/school-startingday-calculator/static/js/runtime-main.34ede527.js",
     "runtime-main.js.map": "/school-startingday-calculator/static/js/runtime-main.34ede527.js.map",
-    "static/css/2.e7d9233e.chunk.css": "/school-startingday-calculator/static/css/2.e7d9233e.chunk.css",
-    "static/js/2.92a99b03.chunk.js": "/school-startingday-calculator/static/js/2.92a99b03.chunk.js",
-    "static/js/2.92a99b03.chunk.js.map": "/school-startingday-calculator/static/js/2.92a99b03.chunk.js.map",
+    "static/js/2.b9f8e14c.chunk.js": "/school-startingday-calculator/static/js/2.b9f8e14c.chunk.js",
+    "static/js/2.b9f8e14c.chunk.js.map": "/school-startingday-calculator/static/js/2.b9f8e14c.chunk.js.map",
     "index.html": "/school-startingday-calculator/index.html",
-    "precache-manifest.7abe236700b41d2a2c030b528611cf55.js": "/school-startingday-calculator/precache-manifest.7abe236700b41d2a2c030b528611cf55.js",
+    "precache-manifest.8df64fcbcbbb31ae1ce1accff9a8b26f.js": "/school-startingday-calculator/precache-manifest.8df64fcbcbbb31ae1ce1accff9a8b26f.js",
     "service-worker.js": "/school-startingday-calculator/service-worker.js",
-    "static/css/2.e7d9233e.chunk.css.map": "/school-startingday-calculator/static/css/2.e7d9233e.chunk.css.map",
-    "static/css/main.cb4e5616.chunk.css.map": "/school-startingday-calculator/static/css/main.cb4e5616.chunk.css.map",
-    "static/js/2.92a99b03.chunk.js.LICENSE.txt": "/school-startingday-calculator/static/js/2.92a99b03.chunk.js.LICENSE.txt",
-    "static/media/semantic.min.css": "/school-startingday-calculator/static/media/outline-icons.ef60a4f6.woff"
+    "static/css/main.2781e3bc.chunk.css.map": "/school-startingday-calculator/static/css/main.2781e3bc.chunk.css.map",
+    "static/js/2.b9f8e14c.chunk.js.LICENSE.txt": "/school-startingday-calculator/static/js/2.b9f8e14c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.34ede527.js",
-    "static/css/2.e7d9233e.chunk.css",
-    "static/js/2.92a99b03.chunk.js",
-    "static/css/main.cb4e5616.chunk.css",
-    "static/js/main.97d18528.chunk.js"
+    "static/js/2.b9f8e14c.chunk.js",
+    "static/css/main.2781e3bc.chunk.css",
+    "static/js/main.ddf69d73.chunk.js"
   ]
 }

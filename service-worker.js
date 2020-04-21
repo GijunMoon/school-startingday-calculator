@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/school-startingday-calculator/precache-manifest.7abe236700b41d2a2c030b528611cf55.js"
+  "/school-startingday-calculator/precache-manifest.8df64fcbcbbb31ae1ce1accff9a8b26f.js"
 );
 
 self.addEventListener('message', (event) => {
